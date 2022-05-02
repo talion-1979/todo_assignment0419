@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h1>Todoリスト</h1>
+    <h1>Todoリスト1</h1>
     <div class="addArea">
       <input type="text" name="addName" id="addName" v-model="content" placeholder="タスクを入力してください">
       <button id="addButton" class="button button--green" @click="insert">追加</button>
